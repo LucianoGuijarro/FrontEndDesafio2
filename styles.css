@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background: hsl(216, 12%, 8%);
+}
+
+.hola {
+    color: red;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    justify-content: start;
+}
+
+.icono-estrella {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: hsl(214, 19%, 22%);
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+.texto {
+    color: hsl(216, 12%, 54%);
+    width: 80%;
+    margin-left: 40px;
+    line-height: 25px;
+}
+
+.numeros {
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    margin: 10px;
+    color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214, 19%, 22%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.textoEscondido{
+    margin: 0;
+    color: red;
+    display: none;
+}
+.btn {
+    background: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.items:hover {
+    cursor: pointer;
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    color: hsl(0deg, 0%, 100%);
+    background-color: hsl(25deg, 97%, 53%)
+}
+.cardGracias{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    align-items: center;
+}
+.img-gracias{
+    margin-top: 50px;
+}
+.textRadio{
+    background-color: hsl(214, 19%, 22%);
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    color: hsl(25deg, 97%, 53%);
+    line-height: 25px;
+    font-size: large;
+}
+.gracias{
+    color: white;
+    margin-top: 0;
+    font-weight: normal;
+}
+.textoGracias{
+    color: hsl(216, 12%, 54%);
+    width: 90%;
+    text-align: center;
+    margin: 0;
+}
